@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zitate</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="default.css"/>
+		<link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#header").load("header.html");
+				$("#navigation").load("navigation.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="navigation"></div>
+		<div id="content">
+			<p>Larry Wall, Programming Perl:</p>
+			<blockquote cite="http://c2.com/cgi/wiki?LazinessImpatienceHubris">
+				We will encourage you to develop the three
+				great virtues of a programmer: laziness,
+				impatience, and hubris.
+			</blockquote>
+			<p>Brian Kernighan:</p>
+			<blockquote>
+				Debugging is twice as hard as writing the code
+				in the first place. Therefore, if you write the
+				code as cleverly as possible, you are, by
+				definition, not smart enough to debug it.
+			</blockquote>
+		</div>
+		<div id="comment">Nothing interestig here...</div>
+	</body>
+</html>

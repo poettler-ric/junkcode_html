@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="default.css"/>
+		<link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#header").load("header.html");
+				$("#navigation").load("navigation.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="navigation"></div>
+		<div id="content">
+			<p>
+			Damit der Header und die Navigation &uuml;berall
+			einheitlich sind werden sie mit JavaScript nachgeladen.
+			Sicher k&ouml;nnten die einzelnen Links mit JavaScript
+			nachgeladen werden, doch das w&uuml;rde das speichern
+			der jeweiligen Seiten mit Browser Lesezeichen
+			verhindern.
+			</p>
+			<p>
+			Die &quot;Eigene Seite&quot; ist die mit den <a href="quotes.html">Zitaten</a>.
+			</p>
+		</div>
+		<div id="comment">Some comment</div>
+	</body>
+</html>

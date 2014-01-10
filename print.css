@@ -1,0 +1,6 @@
+#header, #navigation, #comment {
+	display: none;
+}
+body {
+	font-family: "Arial", Sans-Serif;
+}

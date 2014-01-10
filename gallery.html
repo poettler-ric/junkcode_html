@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gallerie</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="default.css"/>
+		<link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#header").load("header.html");
+				$("#navigation").load("navigation.html");
+			});
+		</script>
+		<!-- used for lightbox -->
+		<script src="js/lightbox-2.6.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="navigation"></div>
+		<div id="content">
+			<p>Images taken from <a href="http://www.reddit.com/r/ServerPorn/">/ServerPorn</a>.</p>
+			<p>Used JavaScript library: <a href="http://lokeshdhakar.com/projects/lightbox2/">Lightbox</a></p>
+			<table>
+				<tr>
+					<td>
+						<a href="http://i.imgur.com/OZ3sXeK.jpg" data-lightbox="gallery1" title="Pr0n #1">
+							<img width="150" height="150" src="http://i.imgur.com/OZ3sXeK.jpg" alt="Pr0n #1"/>
+						</a>
+					</td>
+					<td>
+						<a href="http://i.imgur.com/zPCYn9b.jpg" data-lightbox="gallery1" title="Pr0n #2">
+							<img width="150" height="150" src="http://i.imgur.com/zPCYn9b.jpg" alt="Pr0n #2"/>
+						</a>
+					</td>
+					<td>
+						<a href="http://i.imgur.com/BYXQUlg.jpg" data-lightbox="gallery1" title="Pr0n #3">
+							<img width="150" height="150" src="http://i.imgur.com/BYXQUlg.jpg" alt="Pr0n #3"/>
+						</a>
+					</td>
+					<td>
+						<a href="http://i.imgur.com/boBIsG0.jpg" data-lightbox="gallery1" title="Pr0n #4">
+							<img width="150" height="150" src="http://i.imgur.com/boBIsG0.jpg" alt="Pr0n #4"/>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="comment">The internet is for <a href="http://www.youtube.com/watch?v=eWEjvCRPrCo">Pr0n</a></div>
+	</body>
+</html>
